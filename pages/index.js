@@ -7,9 +7,18 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
+      <h1 className={styles.title}>Home page</h1>
+      <p className={styles.text}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+        quod obcaecati reiciendis quis, vel totam?
+      </p>
+      <p className={styles.text}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+        quod obcaecati reiciendis quis, vel totam?
+      </p>
       <Link a href="/players">
-        <a>See player lists</a>
+        <a className={styles.btn}>See player lists</a>
       </Link>
       {/* <Head>
         <title>Create Next App</title>
