@@ -8,7 +8,6 @@ import styles from '../styles/Home.module.css';
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Navbar />
       <Link a href="/players">
         <a>See player lists</a>
       </Link>
@@ -71,7 +70,6 @@ export default function Home() {
           </span>
         </a>
       </footer> */}
-      <Footer />
     </div>
   );
 }
